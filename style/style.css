@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bellarosta');
+                
 :root {
     --primary-color: #E6533C;
 }
@@ -51,6 +53,9 @@ p {
     border: none;
     border: 1px solid rgb(255, 255, 255);
     margin-left: 10px;
+}
+.extra-column {
+    width: 20%;
 }
 
 /* header */
@@ -159,6 +164,93 @@ ul >li {
     padding-left: 20px;
 }
 /* header end*/
+.change-your-habit {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 50px;
+    padding-bottom: 70px;
+}
+.change-your-habit-content{
+    margin-top: 50px;
+    justify-content: center;
+
+}
+.change-your-habit-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.change-your-habit-box {
+    padding: 10px;
+}
+.img-border {
+    border-radius: 100px;
+    border: 2px solid beige;
+    margin-bottom: 10px;
+}
+/* change-your-habit-box ends */
+.run-extra-mile-section {
+    background: black;
+    padding-bottom: 70px;
+}
+.run-extra-mile {
+    height: 400px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    border-radius: 18px;
+    background: #222222;
+    margin: 0px 50px;
+}
+.run-extra-mile-conten{
+    max-width: 50%;
+    padding: 40px 0px 40px 40px;   
+    /* margin-right: 50px; */
+}
+.run-extra-mile-conten > button {
+    margin: 20px 0px;
+    padding: 14px 40px;
+}
+.run-extra-mile-conten-img {
+    padding: 40px 40px 40px 0px;
+    width: 30%;
+    width: 366px;
+}
+.run-extra-mile-img {
+    border-radius: 10px;
+    height: 300px;
+    width: 366px;
+    /* padding: 40px 54px 40px 0px; */
+
+}
+/* run-extra-mile-section-end */
+.bmi-calculator {
+    height: 487px;
+    background: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bmi-calculator-div-1 {
+
+}
+.bmi-calculator-div-2 {
+    
+}
+/* bmi-calculator ends */
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+th, td {
+border: 1px solid #FFFFFF1A;
+text-align: left;
+padding: 5px;
+color: #FFFFFF80;
+}
 
 @media screen and (max-width: 576px) {
     h1{
@@ -214,7 +306,7 @@ ul >li {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        margin: 0px 20px;
+        margin: 0px 40px;
         padding: 30px 0px;
         text-align: center;
     }
@@ -232,7 +324,7 @@ ul >li {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0px;
+        margin: 0px 20px;
     }
     .hero-content {
         display: flex;
@@ -293,9 +385,58 @@ ul >li {
         justify-content: center;
         padding-left: 20px;
     }
+    .change-your-habit {
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        text-align: center;
+        padding: 0px 50px;
+    }
+    .change-your-habit-content{
+        margin-top: 50px;
+    }
+    .change-your-habit-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .change-your-habit-box {
+        padding: 10px;
+    }
+    .img-border {
+        border-radius: 100px;
+        border: 3px solid beige;
+    }
+    /* change-your-habit-box ends */
+    .run-extra-mile-section {
+        background: black;
+    }
+    .run-extra-mile {
+        height: 500px;
+        background: rgb(139, 129, 129);
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        margin: 0px 10px;
+    }
+    .run-extra-mile-conten{
+        max-width: 100%;
+        padding: 10px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+    .run-extra-mile-img {
+        border-radius: 10px;
+        height: 220px;
+        width: auto;
+    }
 }
 
-@media screen and (min-width:577px) and (max-width: 976px) {
+@media screen and (min-width:576px) and (max-width: 992px) {
     h1{
         Font-weight: 900;
         Font-size: 38px;
@@ -448,4 +589,4 @@ ul >li {
         justify-content: center;
         padding-left: 20px;
     }
-    /* header end*/
+    /* header end */
