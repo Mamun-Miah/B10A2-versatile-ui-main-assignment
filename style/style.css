@@ -8,6 +8,9 @@
     margin: 0px;
     font-family: inter;
 }
+body {
+    background-color: black;
+}
 h1{
     Font-weight: 900;
     Font-size: 78px;
@@ -274,7 +277,7 @@ color: #FFFFFF80;
     margin-bottom: 5px;
 }
 .form-css-selector-gender {
-    width:49.5%;
+    width:49%;
     height: 40px;
     border-radius: 8px;
     background: #FFFFFF1A;
@@ -294,53 +297,38 @@ color: #FFFFFF80;
 }
 
 /* meet our team */
-.meet-our-team-section {
-    background-color: black;
-    height: auto;
-    text-align: center;
-    padding: 40px;
-    
+.team-img-div {
+    position: relative;
 }
 .meet-content {
-    margin-bottom: 40px;
+    margin: 80px auto;
+    width: 50%;
+    text-align: center;
 }
-.meet-our-team-section-grid {
-    
-    /* align-content: center; */
-    /* text-align: center; */
-    padding: 40px;
-    border-radius: 18px;
-    background-color: #FFFFFF1A;
-    
-}
-.meet-our-team-img {
-    width: 326px;
-    height: 272px;
+
+.team-img {
+    height: 100%;
+    width: 100%;
     border-radius: 18px;
 }
 .meet-our-team-content {
-    /* margin-top: -100px; */
-    position: relative;
-    top: -70px;
-    right: 100px;
-    
-}
-.meet-our-team-content-2 {
-    position: relative;
-    top: 250px;
-    right: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }
 .meet-our-team-section-div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
-    margin: -30px 0px;
-    row-gap: 40px;
- 
+    gap: 20px;
+    background: #222222;
+    max-width: 85%;
+    margin: 0 auto;
+    border-radius: 18px;
+    padding: 20px;
 }
 footer {
-    background-color: black;
+    background: #222222;
+    margin-top: 50px;
     
 }
 .footer-div {
@@ -392,6 +380,12 @@ footer {
     justify-content: center;
     padding: 15px;
 }
+
+@media screen and (min-width: 993px) {
+    .hamberger {
+        display: none;
+    }
+}
 @media screen and (max-width: 576px) {
     h1{
         Font-weight: 900;
@@ -439,6 +433,9 @@ footer {
         border: 1px solid rgb(255, 255, 255);
         margin-left: 10px;
     }
+    body {
+        background-color: black;
+    }
     
     /* header */
     nav{
@@ -450,6 +447,7 @@ footer {
         padding: 30px 0px;
         text-align: center;
     }
+    
     .logo {
         font-style: italic;
         font-size: 36px;
@@ -554,25 +552,111 @@ footer {
         background: black;
     }
     .run-extra-mile {
-        height: 500px;
+        height: 680px;
         background: rgb(139, 129, 129);
         justify-content: center;
         display: flex;
         flex-direction: column;
         align-items: center;
         border-radius: 10px;
-        margin: 0px 10px;
+        margin: 50px 10px 30px 10px;
     }
     .run-extra-mile-conten{
         max-width: 100%;
-        padding: 10px;
-        margin-right: 50px;
+        padding: 10px 20px;
+        margin-right: 10px;
         margin-bottom: 20px;
     }
     .run-extra-mile-img {
         border-radius: 10px;
-        height: 220px;
+        height: 200px;
         width: auto;
+        position: relative;
+        left: 30px;
+    }
+    .run-extra-mile-conten-img {
+        padding: 0px;
+        width: 30%;
+        width: 366px;
+    }
+    .bmi-calculator {
+        height: 680px;
+        background: #222222;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bmi-calculator p {
+        font-size: 14px;
+    }
+    .bmi-calculator-div-1 h5 {
+        margin-bottom: 60px;
+    }
+    .bmi-calculator-div-2 {
+        margin-top: 30px;
+        text-align: center;
+        max-width: 320px;
+    }
+    /* bmi-calculator ends */
+    table {
+        border-collapse: collapse;
+        margin-top: 15px;
+      }
+    th, td {
+    border: 1px solid #FFFFFF1A;
+    text-align: left;
+    padding: 5px;
+    color: #FFFFFF80;
+    }
+    .form-main {
+        margin-top: 15px;
+        
+    }
+    .form-css {
+        height: 28px;
+        border-radius: 8px;
+        background: #FFFFFF1A;
+        border: none;
+        padding: 6px 10px 6px 10px;
+        color: #FFFFFF99;
+    }
+    .form-css1{
+        max-width: 136px;
+        margin-right: 4px;
+    }
+    .form-css2{
+        max-width: 136px;
+    }
+    .form-css3{
+        max-width: 136px;
+        margin-right: 4px;
+    }
+    .form-margin {
+        margin-bottom: 5px;
+        display: flex;
+    }
+    .form-css-selector-gender {
+        width: 49%;
+        height: 40px;
+        border-radius: 8px;
+        background: #FFFFFF1A;
+        border: none;
+        padding: 6px 10px 6px 10px;
+        color: #FFFFFF99;
+    }
+    .form-css-selector-activity {
+        width:99%;
+        height: 40px;
+        border-radius: 8px;
+        background: #FFFFFF1A;
+        border: none;
+        padding: 6px 10px 6px 10px;
+        color: #FFFFFF99;
+        margin-bottom: 5px;
+    }
+    .brtag {
+        display: none;
     }
 }
 
@@ -658,6 +742,7 @@ footer {
         align-items: center;
     
     }
+    
     .menu-home {
         border-radius: 46px;
         background: rgb(230, 83, 60);
@@ -730,3 +815,4 @@ footer {
         padding-left: 20px;
     }
     /* header end */
+}
