@@ -658,7 +658,95 @@ footer {
     .brtag {
         display: none;
     }
-}
+    /* meet our team */
+    .team-img-div {
+        position: relative;
+    }
+    .meet-content {
+        margin: 80px auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    .team-img {
+        height: 100%;
+        width: 100%;
+        border-radius: 18px;
+    }
+    .meet-our-team-content {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+    .meet-our-team-section-div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background: #222222;
+        max-width: 85%;
+        margin: 0 auto;
+        border-radius: 18px;
+        padding: 20px;
+    }
+    footer {
+        background: #222222;
+        margin-top: 50px;
+        
+    }
+    .footer-div {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        padding: 15px;
+    }
+    .footer-div1 {
+        width: 85%;
+        margin-right: 0px;
+    }
+    .footer-div1 >h2 {
+        margin-bottom: 15px;
+    }
+    .footer-div2 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 85%;
+        margin-top: 15px;
+        
+    }
+    .footer-widget2 {
+    }
+    .footer-widget2 >a {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: #FFFFFF80;
+        padding: 3px;
+    }
+    .footer-widget3 {
+        margin-top: 15px;
+    }
+    .footer-widget3 >a {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: #FFFFFF80;
+        padding: 3px;
+    }
+    .footer-widget4 {
+        padding: 0px 50px;
+    }
+    .footer-h2 {
+        margin-bottom: 15px;
+    }
+    .copy {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+    }
+
 
 @media screen and (min-width:576px) and (max-width: 992px) {
     h1{
