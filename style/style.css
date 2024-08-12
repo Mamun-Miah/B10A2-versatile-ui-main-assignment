@@ -209,7 +209,7 @@ ul >li {
     display: flex;
     align-items: center;
     border-radius: 18px;
-    background: #222222;
+    background: rgb(36, 35, 35);
     margin: 0px 50px;
 }
 .run-extra-mile-conten{
@@ -231,6 +231,8 @@ ul >li {
     border-radius: 10px;
     height: 300px;
     width: 366px;
+    object-fit: cover;
+    object-position: 100% 90%;
     /* padding: 40px 54px 40px 0px; */
 
 }
@@ -251,7 +253,7 @@ ul >li {
     font-size: 14px;
 }
 .bmi-calculator-div-1 h5 {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 .bmi-calculator-div-2 {
     
@@ -264,7 +266,7 @@ table {
 th, td {
 border: 1px solid #FFFFFF1A;
 text-align: left;
-padding: 5px;
+padding: 15px;
 color: #FFFFFF80;
 }
 .form-main {
@@ -559,7 +561,7 @@ footer {
     }
     .run-extra-mile {
         height: 680px;
-        background: rgb(139, 129, 129);
+        background: rgb(36, 35, 35);
         justify-content: center;
         display: flex;
         flex-direction: column;
@@ -584,10 +586,12 @@ footer {
         width: auto;
         position: relative;
         left: 30px;
+        /* object-fit: cover;
+    object-position: 100% 90%; */
     }
     .run-extra-mile-conten-img {
         padding: 0px;
-        width: 30%;
+        /* width: 30%; */
         width: 366px;
     }
     .bmi-headings {
@@ -608,7 +612,7 @@ footer {
         font-size: 14px;
     }
     .bmi-calculator-div-1 h5 {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
     .bmi-calculator-div-2 {
         margin-top: 30px;
@@ -623,7 +627,7 @@ footer {
     th, td {
     border: 1px solid #FFFFFF1A;
     text-align: left;
-    padding: 5px;
+    padding: 15px;
     color: #FFFFFF80;
     }
     .form-main {
