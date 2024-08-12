@@ -363,6 +363,7 @@ color: #FFFFFF80;
   
     h2 {
       padding: 0;
+      font-size: 24px;
       color: #E6533C;
     }
     span {
@@ -625,10 +626,10 @@ footer {
     }
     .run-extra-mile-img {
         border-radius: 10px;
-        height: 240px;
+        height: 200px;
         width: auto;
         position: relative;
-        left: 0px;
+        left: 30px;
         object-fit: cover;
     object-position: 100% 90%;
     }
