@@ -226,8 +226,7 @@ ul >li {
 }
 .run-extra-mile-conten-img {
     padding: 40px 40px 40px 0px;
-    width: 30%;
-    width: 366px;
+    /* width: 366px; */
 }
 .run-extra-mile-img {
     border-radius: 10px;
@@ -626,17 +625,15 @@ footer {
     }
     .run-extra-mile-img {
         border-radius: 10px;
-        height: 200px;
-        width: auto;
-        position: relative;
-        left: 30px;
+        max-width: 100%;
+        height: auto;
+        display: block;
         object-fit: cover;
-    object-position: 100% 90%;
+        object-position: 100% 90%;
+        
     }
     .run-extra-mile-conten-img {
-        padding: 0px;
-        /* width: 30%; */
-        width: 366px;
+        padding: 10px;
     }
     .bmi-headings {
         margin: auto;
