@@ -709,6 +709,12 @@ footer {
         border-radius: 18px;
         padding: 20px;
     }
+    .dianne-russell {
+        display: none;
+    }
+    .jerome-bell{
+        display: none;
+    }
     footer {
         background: #222222;
         margin-top: 50px;
