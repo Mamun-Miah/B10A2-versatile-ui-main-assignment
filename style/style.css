@@ -133,6 +133,7 @@ ul >li {
     position: absolute;
     top: 28px;
     left: 23px;
+    display: none;
 }
 .hero-min {
     display: flex;
@@ -518,7 +519,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0px 20px;
+        margin: 0px 10px;
     }
     .hero-content {
         display: flex;
@@ -540,6 +541,7 @@ footer {
         position: absolute;
         top: 28px;
         left: 18px;
+        display: block;
     }
     .hero-min {
         display: flex;
@@ -636,6 +638,7 @@ footer {
     .run-extra-mile-img {
         border-radius: 10px;
         max-width: 100%;
+        width: auto;
         height: auto;
         display: block;
         object-fit: cover;
@@ -643,7 +646,7 @@ footer {
         
     }
     .run-extra-mile-conten-img {
-        padding: 10px;
+        padding: 15px;
     }
     .bmi-headings {
         margin: auto;
